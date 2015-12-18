@@ -34,41 +34,18 @@ h3 {
   background-color: gray;
 }
 
-.back .front {
+.back img {
   position: absolute;
   width: inherit;
   height: inherit;
-  z-index: 900;
   text-align: center;
-  -webkit-transform: rotateX(0deg) rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
 }
 
-.back img {
-    position: absolute;
-    top: 0;
-    z-index: 800;
-    width: inherit;
-    height: inherit;
-    -webkit-transform: rotateY(-180deg);
-    -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-.panel.flip img {
-    z-index: 1000;
-    -webkit-transform: rotateX(0deg) rotateY(0deg);
-}
-
-/*.box img {
+.box img {
   position: absolute;
   width: inherit;
   height: inherit;
   z-index: 800;
-}*/
+}
 
 
