@@ -1,0 +1,32 @@
+.wrapper {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: helvetica;
+  font-size: 35pt;
+  text-align: center;
+  text-shadow: 1pt 2pt 2pt gray;
+}
+
+.box {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1pt;
+  border-color: rgb(100,100,100);
+  margin: 6pt;
+  width: 100pt;
+  height: 100pt;
+  text-shadow: 1pt 1pt 2pt black;
+  background-color: gray;
+}
+
+.box img {
+  /*position: fixed;*/
+  width: 100pt;
+  height: 100pt;
+  /*transform: rotateY(180deg);*/
+}
+
