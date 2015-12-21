@@ -87,28 +87,6 @@ var missCounter = 7;
 
   });
 });
-  // $("#button").click(function(){
-  //     $('#container').append('<div id="box-18" class="back"><img id="pikachu18" src="img_pikachu/mew.png"></div>' + '<div id="box-17" class="back"><img id="pikachu18" src="img_pikachu/magikarp.gif"></div>');
-  //     $('img').hide(9000);
-  //     $('div').click(function(){
-  //   $(('img'), $(this)).show(1000);
-  //   $('.back').click(function(){clickArr.push($(this));});
-  // });
-  // })
-      // for(var i = 1; i <= 16; i++){
-      //   undefinedArr.push($(this).children('#pikachu' + i).attr('src'));
-      // };
 
-      // for(var i = 0; i < undefinedArr.length; i++){
-      //   if(undefinedArr[i]) {
-      //     clickArr.push(undefinedArr[i]);
-      //     console.log(undefinedArr);
-      //     undefinedArr = [];
-      //   }
-      // }
-  // console.log(undefinedArr);
-  // console.log(clickArr);
-          // console.log($(clickArr[0].children('img')[0]).attr('src'));
-        // console.log($(clickArr[1].children('img')[0]).attr('src'));
 
 
