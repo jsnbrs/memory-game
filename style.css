@@ -8,8 +8,11 @@ body {
   text-align: center;
   position: static;
 }
+.header {
+  height: 47pt;
+}
 #container {
-  position: relative;
+  margin-top: 30pt;
   margin-left: 8pt;
 }
 h1 {
