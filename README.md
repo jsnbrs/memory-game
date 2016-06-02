@@ -6,4 +6,4 @@ Match the *Peanuts* characters to win, you only have four guesses, choose wisely
 
 This simple memory game uses *JavaScript* and *jQuery* to manipulate *HTML* elements.
 
-The game can be played ![here](http://jsnbrs.github.io/)
+The game can be played [here](http://jsnbrs.github.io/).
