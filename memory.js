@@ -48,7 +48,7 @@ var randomStart = $('.back').toArray(); //array that divs are held in when game 
 
           clickArr = []; //clears out the array to start over with
 
-          $('#counter').empty().append("Match Counter: " + matchCounter); //updates counter on page
+          $('#counter').empty().append(" Match Counter: " + matchCounter); //updates counter on page
           $('h1').empty().append("You have chosen wisely...").fadeTo(2000, 0); //new header with message(fades)
 
           setTimeout(function(){
@@ -75,12 +75,12 @@ var randomStart = $('.back').toArray(); //array that divs are held in when game 
         //if there isnt a match with clickArr index 0 & 1 that is caught in the if above the array becomes 3 elements and then the images are hidden
         missCounter-=1; //logged as a miss which triggers the counter and various messages below:
 
-        if(missCounter >= 3){
-          $('#misses').empty().append("You have missed " + missCounter + " times.");
+        if(missCounter === 3){
+          $('#misses').empty().append("Okay, you have " + missCounter + " to go... ");
         } else if(missCounter === 2){
-          $('#misses').empty().append("Careful, you only have two gueses left.");
+          $('#misses').empty().append("Careful, you only have " + missCounter + " gueses left. ");
         } else if(missCounter === 1){
-          $('#misses').empty().append("You have one guess left!");
+          $('#misses').empty().append("This is your last guess... Make it count! ");
         }
 
         clickArr = []; //click array reset
