@@ -1,7 +1,6 @@
 body {
   background-color: rgb(26,28,32);
 }
-
 .wrapper {
   width: 810px;
   margin: 0 auto;
@@ -43,4 +42,10 @@ h2 {
   height: inherit;
   vertical-align: top;
   display: inline-block;
+}
+.fb-like {
+  height: 40pt;
+  width: 180pt;
+  float: right;
+  margin: 33pt;
 }
